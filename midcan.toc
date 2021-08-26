@@ -1,0 +1,5 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Introduction}{5}{0}{1}
+\beamer@sectionintoc {2}{ML for forecasting}{8}{0}{2}
+\beamer@sectionintoc {3}{Research Projects}{22}{0}{3}
+\beamer@sectionintoc {4}{Recent Developments}{44}{0}{4}

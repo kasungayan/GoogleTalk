@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: midcan.aux
+The style file: apalike.bst
+Database file #1: reference.bib
+Warning--empty journal in Ben_Taieb2011-iu
+Warning--empty journal in Borovykh2017-le
+Warning--empty journal in Kang2019-dy
+Warning--there's a number but no volume in Makridakis2021-ro
+Warning--empty journal in Oreshkin2019-tq
+You've used 33 entries,
+            1935 wiz_defined-function locations,
+            684 strings with 10235 characters,
+and the built_in function-call counts, 13509 in all, are:
+= -- 1273
+> -- 655
+< -- 20
++ -- 232
+- -- 220
+* -- 1159
+:= -- 2386
+add.period$ -- 104
+call.type$ -- 33
+change.case$ -- 269
+chr.to.int$ -- 33
+cite$ -- 38
+duplicate$ -- 501
+empty$ -- 893
+format.name$ -- 267
+if$ -- 2642
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 29
+newline$ -- 168
+num.names$ -- 105
+pop$ -- 248
+preamble$ -- 1
+purify$ -- 269
+quote$ -- 0
+skip$ -- 376
+stack$ -- 0
+substring$ -- 799
+swap$ -- 64
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 198
+warning$ -- 5
+while$ -- 90
+width$ -- 0
+write$ -- 424
+(There were 5 warnings)
