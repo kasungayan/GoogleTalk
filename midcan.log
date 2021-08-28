@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.3.3)  26 AUG 2021 23:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.3.3)  29 AUG 2021 00:28
 entering extended mode
 **./midcan.tex
 (midcan.tex
@@ -1486,7 +1486,7 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 
 pdfTeX warning: miktex-pdflatex (file ./images/timeline.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-<images/timeline.pdf, id=1424, 930.47626pt x 316.58275pt>
+<images/timeline.pdf, id=1426, 930.47626pt x 316.58275pt>
 File: images/timeline.pdf Graphic file (type pdf)
 <use images/timeline.pdf>
 Package pdftex.def Info: images/timeline.pdf  used on input line 396.
@@ -1499,7 +1499,7 @@ Overfull \hbox (18.3817pt too wide) in paragraph at lines 396--396
 [16
 
  <./images/timeline.pdf>]
-<images/window_final.png, id=1536, 770.88pt x 546.54187pt>
+<images/window_final.png, id=1538, 770.88pt x 546.54187pt>
 File: images/window_final.png Graphic file (type png)
 <use images/window_final.png>
 Package pdftex.def Info: images/window_final.png  used on input line 406.
@@ -1522,7 +1522,7 @@ Package pdftex.def Info: images/window_final.png  used on input line 406.
 ] [24
 
 ]
-<images/architecture_final2.png, id=2211, 1257.19687pt x 1654.68187pt>
+<images/architecture_final2.png, id=2213, 1257.19687pt x 1654.68187pt>
 File: images/architecture_final2.png Graphic file (type png)
 <use images/architecture_final2.png>
 Package pdftex.def Info: images/architecture_final2.png  used on input line 976
@@ -1545,7 +1545,7 @@ Overfull \vbox (5.62167pt too high) detected at line 976
 
 pdfTeX warning: miktex-pdflatex (file ./images/system_diagram.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<images/system_diagram.pdf, id=2374, 963.6pt x 478.06606pt>
+<images/system_diagram.pdf, id=2376, 963.6pt x 478.06606pt>
 File: images/system_diagram.pdf Graphic file (type pdf)
 <use images/system_diagram.pdf>
 Package pdftex.def Info: images/system_diagram.pdf  used on input line 1006.
@@ -1564,7 +1564,7 @@ Overfull \vbox (21.90295pt too high) detected at line 1006
 
 pdfTeX warning: miktex-pdflatex (file ./images/lstm1.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<images/lstm1.pdf, id=2629, 877.2775pt x 165.61874pt>
+<images/lstm1.pdf, id=2631, 877.2775pt x 165.61874pt>
 File: images/lstm1.pdf Graphic file (type pdf)
 <use images/lstm1.pdf>
 Package pdftex.def Info: images/lstm1.pdf  used on input line 1082.
@@ -1573,7 +1573,7 @@ Package pdftex.def Info: images/lstm1.pdf  used on input line 1082.
 
 pdfTeX warning: miktex-pdflatex (file ./images/lstm2.pdf): PDF inclusion: found
  PDF version <1.7>, but at most version <1.5> allowed
-<images/lstm2.pdf, id=2630, 884.30376pt x 189.70876pt>
+<images/lstm2.pdf, id=2632, 884.30376pt x 189.70876pt>
 File: images/lstm2.pdf Graphic file (type pdf)
 <use images/lstm2.pdf>
 Package pdftex.def Info: images/lstm2.pdf  used on input line 1082.
@@ -1595,7 +1595,7 @@ Overfull \vbox (16.48068pt too high) detected at line 1082
 [30
 
  <./images/lstm1.pdf> <./images/lstm2.pdf>]
-<images/seasonality_pattern.png, id=2769, 3011.25pt x 5018.75pt>
+<images/seasonality_pattern.png, id=2771, 3011.25pt x 5018.75pt>
 File: images/seasonality_pattern.png Graphic file (type png)
 <use images/seasonality_pattern.png>
 Package pdftex.def Info: images/seasonality_pattern.png  used on input line 109
@@ -1612,7 +1612,7 @@ Overfull \vbox (21.8362pt too high) detected at line 1090
 ] [33
 
 ]
-<images/whatif.png, id=3012, 909.3975pt x 603.0028pt>
+<images/whatif.png, id=3014, 909.3975pt x 603.0028pt>
 File: images/whatif.png Graphic file (type png)
 <use images/whatif.png>
 Package pdftex.def Info: images/whatif.png  used on input line 1160.
@@ -1626,7 +1626,7 @@ Overfull \vbox (17.21146pt too high) detected at line 1160
  <./images/whatif.png>] [35
 
 ]
-<images/causal.png, id=3175, 817.0525pt x 341.275pt>
+<images/causal.png, id=3177, 817.0525pt x 341.275pt>
 File: images/causal.png Graphic file (type png)
 <use images/causal.png>
 Package pdftex.def Info: images/causal.png  used on input line 1182.
@@ -1636,7 +1636,7 @@ Package pdftex.def Info: images/causal.png  used on input line 1182.
  <./images/causal.png>] [37
 
 ]
-<images/911calls.png, id=3339, 554.07pt x 354.32375pt>
+<images/911calls.png, id=3341, 554.07pt x 354.32375pt>
 File: images/911calls.png Graphic file (type png)
 <use images/911calls.png>
 Package pdftex.def Info: images/911calls.png  used on input line 1206.
@@ -1673,7 +1673,7 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <8> not available
 
 pdfTeX warning: miktex-pdflatex (file ./images/resnetarch.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<images/resnetarch.pdf, id=3586, 397.485pt x 466.74374pt>
+<images/resnetarch.pdf, id=3588, 397.485pt x 466.74374pt>
 File: images/resnetarch.pdf Graphic file (type pdf)
 <use images/resnetarch.pdf>
 Package pdftex.def Info: images/resnetarch.pdf  used on input line 1258.
@@ -1685,7 +1685,7 @@ Overfull \vbox (17.67651pt too high) detected at line 1258
 [41
 
  <./images/resnetarch.pdf>]
-<images/rp5_arch.png, id=3682, 896.34875pt x 550.055pt>
+<images/rp5_arch.png, id=3684, 896.34875pt x 550.055pt>
 File: images/rp5_arch.png Graphic file (type png)
 <use images/rp5_arch.png>
 Package pdftex.def Info: images/rp5_arch.png  used on input line 1267.
@@ -1701,7 +1701,7 @@ l.1267 \end{frame}
 
 pdfTeX warning: miktex-pdflatex (file ./images/TL1.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<images/TL1.pdf, id=3764, 158.5925pt x 312.16624pt>
+<images/TL1.pdf, id=3766, 158.5925pt x 312.16624pt>
 File: images/TL1.pdf Graphic file (type pdf)
 <use images/TL1.pdf>
 Package pdftex.def Info: images/TL1.pdf  used on input line 1284.
@@ -1710,7 +1710,7 @@ Package pdftex.def Info: images/TL1.pdf  used on input line 1284.
 
 pdfTeX warning: miktex-pdflatex (file ./images/TL2.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<images/TL2.pdf, id=3765, 148.555pt x 415.5525pt>
+<images/TL2.pdf, id=3767, 148.555pt x 415.5525pt>
 File: images/TL2.pdf Graphic file (type pdf)
 <use images/TL2.pdf>
 Package pdftex.def Info: images/TL2.pdf  used on input line 1284.
@@ -1719,7 +1719,7 @@ Package pdftex.def Info: images/TL2.pdf  used on input line 1284.
 
 pdfTeX warning: miktex-pdflatex (file ./images/TL3.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<images/TL3.pdf, id=3766, 157.58875pt x 467.7475pt>
+<images/TL3.pdf, id=3768, 157.58875pt x 467.7475pt>
 File: images/TL3.pdf Graphic file (type pdf)
 <use images/TL3.pdf>
 Package pdftex.def Info: images/TL3.pdf  used on input line 1284.
@@ -1731,16 +1731,16 @@ Package pdftex.def Info: images/TL3.pdf  used on input line 1284.
 
 ] [45
 
-] [46
-
-] (midcan.bbl
+]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-30.
+1347.
 
 ("/Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/lm/o
 t1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [47
+) [46
+
+] (midcan.bbl) [47
 
  </Users/kasun/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beam
 er/beamericonarticle.pdf>] [48
@@ -1752,7 +1752,8 @@ er/beamericonarticle.pdf>] [48
 ] [50
 
 
-] [51
+]
+[51
 
 
 ] [52
@@ -1761,15 +1762,14 @@ er/beamericonarticle.pdf>] [48
 ] [53
 
 
-]
-[54
+] [54
 
 
 ]
-<images/trainvalidation.png, id=4796, 482.5665pt x 99.864pt>
+<images/trainvalidation.png, id=4800, 482.5665pt x 99.864pt>
 File: images/trainvalidation.png Graphic file (type png)
 <use images/trainvalidation.png>
-Package pdftex.def Info: images/trainvalidation.png  used on input line 1358.
+Package pdftex.def Info: images/trainvalidation.png  used on input line 1360.
 (pdftex.def)             Requested size: 193.02318pt x 39.94489pt.
  [55
 
@@ -1791,10 +1791,10 @@ Package rerunfilecheck Info: File `midcan.out' has not changed.
 (rerunfilecheck)             Checksum: 31CDB325F8C42F50BDC3BF80B558FD5C;514.
  ) 
 Here is how much of TeX's memory you used:
- 25966 strings out of 481270
- 488357 string characters out of 2906482
- 865266 words of memory out of 3000000
- 42397 multiletter control sequences out of 15000+200000
+ 25969 strings out of 481270
+ 488522 string characters out of 2906482
+ 866861 words of memory out of 3000000
+ 42399 multiletter control sequences out of 15000+200000
  466823 words of font info for 79 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  131i,19n,132p,503b,802s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1814,9 +1814,9 @@ c/lm/lmssbx10.pfb></Users/kasun/Library/Application Support/MiKTeX/texmfs/insta
 ll/fonts/type1/public/lm/lmsso10.pfb></Users/kasun/Library/Application Support/
 MiKTeX/texmfs/install/fonts/type1/public/lm/lmsso8.pfb></Users/kasun/Library/Ap
 plication Support/MiKTeX/texmfs/install/fonts/type1/public/lm/lmtt8.pfb>
-Output written on midcan.pdf (55 pages, 12557084 bytes).
+Output written on midcan.pdf (55 pages, 12558358 bytes).
 PDF statistics:
- 4951 PDF objects out of 5155 (max. 8388607)
- 159 named destinations out of 1000 (max. 500000)
+ 4955 PDF objects out of 5155 (max. 8388607)
+ 160 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 

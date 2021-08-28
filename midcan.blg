@@ -8,45 +8,45 @@ Warning--empty journal in Borovykh2017-le
 Warning--empty journal in Kang2019-dy
 Warning--there's a number but no volume in Makridakis2021-ro
 Warning--empty journal in Oreshkin2019-tq
-You've used 33 entries,
+You've used 34 entries,
             1935 wiz_defined-function locations,
-            684 strings with 10235 characters,
-and the built_in function-call counts, 13509 in all, are:
-= -- 1273
-> -- 655
-< -- 20
-+ -- 232
-- -- 220
-* -- 1159
-:= -- 2386
-add.period$ -- 104
-call.type$ -- 33
-change.case$ -- 269
-chr.to.int$ -- 33
-cite$ -- 38
-duplicate$ -- 501
-empty$ -- 893
-format.name$ -- 267
-if$ -- 2642
+            690 strings with 10396 characters,
+and the built_in function-call counts, 13763 in all, are:
+= -- 1301
+> -- 662
+< -- 21
++ -- 234
+- -- 222
+* -- 1174
+:= -- 2437
+add.period$ -- 108
+call.type$ -- 34
+change.case$ -- 275
+chr.to.int$ -- 34
+cite$ -- 39
+duplicate$ -- 511
+empty$ -- 908
+format.name$ -- 270
+if$ -- 2689
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 29
-newline$ -- 168
-num.names$ -- 105
-pop$ -- 248
+newline$ -- 174
+num.names$ -- 108
+pop$ -- 250
 preamble$ -- 1
-purify$ -- 269
+purify$ -- 275
 quote$ -- 0
-skip$ -- 376
+skip$ -- 385
 stack$ -- 0
-substring$ -- 799
+substring$ -- 811
 swap$ -- 64
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 198
+type$ -- 204
 warning$ -- 5
-while$ -- 90
+while$ -- 92
 width$ -- 0
-write$ -- 424
+write$ -- 438
 (There were 5 warnings)

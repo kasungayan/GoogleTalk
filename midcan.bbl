@@ -19,6 +19,12 @@ Ben~Taieb, S., Bontempi, G., Atiya, A., and Sorjamaa, A. (2011).
 \newblock A review and comparison of strategies for multi-step ahead time
   series forecasting based on the {NN5} forecasting competition.
 
+\bibitem[Bergmeir, 2020]{Bergmeir2020-nu}
+Bergmeir, C. (2020).
+\newblock {ACML} 2020 tutorial: Forecasting for data scientists.
+\newblock \url{https://cbergmeir.com/talks/acml-tutorial/}.
+\newblock Accessed: 2021-8-29.
+
 \bibitem[Borovykh et~al., 2017]{Borovykh2017-le}
 Borovykh, A., Bohte, S., and Oosterlee, C.~W. (2017).
 \newblock Conditional time series forecasting with convolutional neural
