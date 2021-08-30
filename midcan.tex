@@ -934,7 +934,7 @@
       \fi
     }
     
-\begin{frame}{Research Project 1}
+\begin{frame}{Clustering based GFM framework}
    \begin{block}{Research Question}	
 	Does building a notion of similarity between the time series assist the GFMs to distinguish the variations exist among a group of time series.
 	\end{block}
@@ -947,7 +947,7 @@
 \end{frame}  
 
 
-\begin{frame}{Research Project 1: Approach}
+\begin{frame}{Time series clustering}
 	\begin{itemize}
 	\item Building GFMs on subgroups of similar time series.
 	\begin{itemize}\color{blue}
@@ -964,7 +964,7 @@ and Snob.
 \end{itemize}
 \end{frame} 
 
-\begin{frame}{Research Project 1: Overall Architecture}
+\begin{frame}{Overall Architecture}
  \begin{figure}[htb]
   \begin{center}
     \includegraphics[width=0.4\textwidth]{images/architecture_final2}
@@ -975,34 +975,34 @@ and Snob.
 \end{frame} 
 
 
-\begin{frame}{Research Project 2}
-	\begin{itemize}
-	\item Applying the clustering based GFM framework to forecast the demand in a E-commerce product assortment hierarchy
-	\begin{itemize}\color{blue}
-		\item A product grouping strategy introduced to supplement the GFM learning schemes, in situations where sales patterns in a product portfolio are disparate.
-	\end{itemize}
-	\vspace{0.8mm}
-	\item Empirically evaluated using real-world retail sales data from Walmart.com
-	\begin{itemize}\color{blue}
-		\item A combination of static and dynamic features to model time series characteristics.
-		\item Product class, Product category, Calendar information (holidays, season etc.)
-		\item Evaluated on 20,000 items in the portfolio. 
-		\item Outperforms the current forecasting pipeline at Walmart and many standard benchmarks.
-	\end{itemize}
-	\end{itemize}
-\end{frame}
+%\begin{frame}{Research Project 2}
+%	\begin{itemize}
+%	\item Applying the clustering based GFM framework to forecast the demand in a E-commerce product assortment hierarchy
+%	\begin{itemize}\color{blue}
+%		\item A product grouping strategy introduced to supplement the GFM learning schemes, in situations where sales patterns in a product portfolio are disparate.
+%	\end{itemize}
+%	\vspace{0.8mm}
+%	\item Empirically evaluated using real-world retail sales data from Walmart.com
+%	\begin{itemize}\color{blue}
+%		\item A combination of static and dynamic features to model time series characteristics.
+%		\item Product class, Product category, Calendar information (holidays, season etc.)
+%		\item Evaluated on 20,000 items in the portfolio. 
+%		\item Outperforms the current forecasting pipeline at Walmart and many standard benchmarks.
+%	\end{itemize}
+%	\end{itemize}
+%\end{frame}
 
-\begin{frame}{Research Project 2: Overall Architecture}
-\begin{figure}[htbp]
+%\begin{frame}{Research Project 2: Overall Architecture}
+%\begin{figure}[htbp]
 
-\centerline{\includegraphics[width=1.10\textwidth]{images/system_diagram}}
+%\centerline{\includegraphics[width=1.10\textwidth]{images/system_diagram}}
 
-\caption{ \scriptsize An overview of the proposed sales demand forecasting framework, which consists of a pre-processing, an LSTM training, and a post-processing part}
+%\caption{ \scriptsize An overview of the proposed sales demand forecasting framework, which consists of a %pre-processing, an LSTM training, and a post-processing part}
 
-\label{process}
+%\label{process}
 
-\end{figure}
-\end{frame}
+%\end{figure}
+%\end{frame}
 
 
 %\begin{frame}{Publications and Presentations}
@@ -1031,7 +1031,7 @@ and Snob.
 %\end{enumerate}
 %\end{frame}
 
-\begin{frame}{Research Project 3}
+\begin{frame}{LSTM-MSNet}
    \begin{block}{Research Question}	
 	How various forms of multi-seasonal decomposition techniques can supplement the learning process of GFMs, when forecasting a group of time series with multiple seasonal cycles.
 	\end{block}
@@ -1049,7 +1049,7 @@ and Snob.
  \end{itemize}
 \end{frame} 
 
-\begin{frame}{Research Project 3: Approach}
+\begin{frame}{Multiseasonal decomposition}
 \begin{itemize}
 	\item A decomposition based, GFM based prediction framework to forecast time series with multiple seasonal patterns.
 	\vspace{3mm}
@@ -1065,7 +1065,7 @@ and Snob.
 \end{frame}
 
 
-\begin{frame}{Research Project 3: Overall Architecture}
+\begin{frame}{Overall Architecture}
   	\begin{figure}[htp]
 \subfloat[The proposed DS training paradigm used to train the LSTM-MSNet]{%
   \centerline{\includegraphics[width=0.80\textwidth]{images/lstm1}}
@@ -1074,13 +1074,13 @@ and Snob.
 \subfloat[The proposed SE training paradigm used to train the LSTM-MSNet]{%
   \centerline{\includegraphics[width=0.80\textwidth]{images/lstm2}}
 }
-\caption{\tiny An overview of the proposed LSTM-MSNet training paradigms. In the DS approach, deseasonalised time series are used to train the LSTM-MSNet. Whereas in the SE approach, the seasonal values extracted from the deseasonalisation phase are employed as exogenous variables, along with the original time series to train the LSTM-MSNet.}
+\caption{\tiny An overview of the proposed LSTM-MSNet training paradigms. In the DS approach, deseasonalised time series are used to train the LSTM-MSNet. Whereas in the SE approach, the seasonal values extracted from the deseasonalisation phase are employed as exogenous variables, along with the original time series.}
 \label{lstm-schemes}
 \end{figure}
 
 \end{frame}
 
-\begin{frame}{Research Project 3: Major Findings}
+\begin{frame}{Findings}
   	\begin{figure}[htbp]
 \centerline{\includegraphics[width=0.32\textwidth]{images/seasonality_pattern}}
 \caption{\tiny The seasonal components' distributions of the sum of multiple seasonalities extracted from the AusGrid-Energy (half hourly), AusGrid-Energy (hourly), M4 and the Traffic datasets, by applying the MSTL decomposition technique to the initial 200 data points of each time series.}
@@ -1115,50 +1115,50 @@ and Snob.
 %\end{frame}
 
 
-\begin{frame}{Research Project 4: DeepPPMNet}
-	\begin{itemize}
-	\item GFM allows to train across all the available EMS demand time series to exploit the potential cross-series information available in multiple local governing areas (LGAs).
-	\vspace{4mm}
-	\item Capable of exploring the causal relationships using the notion of Granger Causality, where the GFM enables to perform ‘what-if’ analyses.
-	\begin{itemize}\color{blue}
-		\item Using potential external regressors to evaluate whether the
-base accuracies are improved.
-		\item Sensitivity analysis to assess their impact towards EMS.
-		\item GFMs make the ‘what-if’ analysis feasible even for relatively
-constant features.
-		\item Allows government decision makers to assess the factors that
-could drive the EMS demand.
-	\end{itemize}
-\end{itemize}
-\end{frame} 
+%\begin{frame}{Research Project 4: DeepPPMNet}
+	%\begin{itemize}
+	%\item GFM allows to train across all the available EMS demand time series to exploit the potential cross-series information available in multiple local governing areas (LGAs).
+	%\vspace{4mm}
+	%\item Capable of exploring the causal relationships using the notion of Granger Causality, where the GFM enables to perform ‘what-if’ analyses.
+	%\begin{itemize}\color{blue}
+		%\item Using potential external regressors to evaluate whether the
+%base accuracies are improved.
+		%\item Sensitivity analysis to assess their impact towards EMS.
+		%\item GFMs make the ‘what-if’ analysis feasible even for relatively
+%constant features.
+		%\item Allows government decision makers to assess the factors that
+%could drive the EMS demand.
+	%\end{itemize}
+%\end{itemize}
+%\end{frame}
 
-\begin{frame}{Research Project 4: Evaluation}
-	\begin{itemize}
-	\item The DeepPPMNet was evaluated using a realworld EMS demand dataset
-	\vspace{1mm}
-	\begin{itemize}\color{blue}
-		\item National dataset of coded ambulance clinical records held by Turning Point, an Australian addiction research and education centre.
-		\item Related to alcohol overdose, suicide attempts, and other drug related harms.
-		\item 8 years worth of EMS related data for each LGA.
-		\item Our methods outperform state-of-the-art univariate time series models.
-	\end{itemize}
-	\item A case study to investiage the use of DeepPPMNet
-	\vspace{2mm}
-	\begin{itemize}\color{blue}
-		\item How the number of alcohol licenses issued (ALI) for a certain period of time can affect the alcohol related EMS demand patterns.
-	\end{itemize}
-\end{itemize}
-\end{frame}
+%\begin{frame}{Research Project 4: Evaluation}
+	%\begin{itemize}
+	%\item The DeepPPMNet was evaluated using a realworld EMS demand dataset
+	%\vspace{1mm}
+	%\begin{itemize}\color{blue}
+		%\item National dataset of coded ambulance clinical records held by Turning Point, an Australian addiction research and education centre.
+		%\item Related to alcohol overdose, suicide attempts, and other drug related harms.
+		%\item 8 years worth of EMS related data for each LGA.
+		%\item Our methods outperform state-of-the-art univariate time series models.
+	%\end{itemize}
+	%\item A case study to investiage the use of DeepPPMNet
+	%\vspace{2mm}
+	%\begin{itemize}\color{blue}
+		%\item How the number of alcohol licenses issued (ALI) for a certain period of time can affect the alcohol related EMS demand patterns.
+	%\end{itemize}
+%\end{itemize}
+%\end{frame}
 
-\begin{frame}{Research Project 4: DeepPPMNet Case Study}
-\begin{figure}[htbp]
-\centerline{\includegraphics[width=0.80\textwidth]{images/whatif}}
-\caption{ \scriptsize The application of `what-if' scenario analysis, using the number of  ALI (as a percentage of change) against the AO related EMS demand.}
-\label{whatif}
-\end{figure}
-\end{frame}
+%\begin{frame}{Research Project 4: DeepPPMNet Case Study}
+%\begin{figure}[htbp]
+%\centerline{\includegraphics[width=0.80\textwidth]{images/whatif}}
+%\caption{ \scriptsize The application of `what-if' scenario analysis, using the number of  ALI (as a percentage of change) against the AO related EMS demand.}
+%\label{whatif}
+%\end{figure}
+%\end{frame}
 
-\begin{frame}{Research Project 5 }
+\begin{frame}{GFMs for Causal Inference}
    \begin{block}{Research Question}	
 	The effectiveness of using global models for causal Inference through Counterfactual Prediction
 	\end{block}
@@ -1215,9 +1215,9 @@ could drive the EMS demand.
 %\end{frame}
 
 
-\begin{frame}{Research Project 6}
+\begin{frame}{Data Augmentation for GFMs}
    \begin{block}{Research Question}	
-	Can transfer learning approaches uplift the forecast accuracy of GFMs, in situations where the availability of time series is limited.
+	Can data augmentation approaches can improve the forecast accuracy of GFMs, in situations where the availability of time series is limited.
 	\end{block}
 	\begin{itemize}
 	\item RNN based GFMs are inherently data ravenous and require significant amount of training data. 
@@ -1229,7 +1229,7 @@ could drive the EMS demand.
  \end{itemize}
 \end{frame}
 
-\begin{frame}{Research Project 6: Approach}
+\begin{frame}{Approach}
    \begin{itemize}
 	\item A host of transfer learning (TL) schemes to leverage the capabilities of GFMs to generate accurate forecast, in situations with less time series data
 	\vspace{1mm}
@@ -1248,7 +1248,7 @@ could drive the EMS demand.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Research Contribution 6: Residual RNN Architecture}
+\begin{frame}{Residual RNN Architecture}
    \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.42\textwidth]{images/resnetarch}}
 \caption{ \tiny The unrolled representation of a residual recurrent network architecture with $k$ number of stacking layers. Here, the residual connections are represented by curved arrows. Accordingly to \cite{He2016-wm}, these residual connections allow the stacking layers to fit a residual mapping between $W_t$ and $\hat{Y_{t}}$, while avoiding the network degradation with network depth increasing}
@@ -1256,7 +1256,7 @@ could drive the EMS demand.
 \end{figure}
 \end{frame}
 
-\begin{frame}{Research Contribution 6: Overall Architecture }
+\begin{frame}{Overall Architecture }
    \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.65\textwidth]{images/rp5_arch}}
 \caption{ \tiny An overview of the proposed framework, which includes a data augmentation layer, pre-processing
@@ -1326,11 +1326,11 @@ layer, residual RNN training layer, and a post-processing layer}
   \begin{itemize}
   		\item Global models for hierarchical time series forecasting 
   		\vspace{2mm}
-  		\item Interpretable forecasts for global models
+  		\item Generating Interpretable forecasts for global models
   		\vspace{2mm}
-  		\item Global models robust to concept drift.
+  		\item Developing global models robust to concept drift.
   		\vspace{2mm}
-  		\item Global models for scenario-forecasting.
+  		\item Global models for scenario-forecasting (DeepPPMNet )
 		\end{itemize}
   \end{frame}  
 
@@ -1339,7 +1339,7 @@ layer, residual RNN training layer, and a post-processing layer}
   \begin{center}
   {\Huge Thank you}\vspace{1cm}\\
   Kasun Bandara\vspace{0.2cm}\\
-  \textcolor{DiCITSBlue}{Kasun.Bandara@unimelb.edu.au}\vspace{0.2cm}\\
+  \textcolor{DiCITSBlue}{Kasun.Bandara@unimelb.edu.au}\vspace{0.8cm}\\
   Slides available: \scriptsize{\url{github.com/kasungayan/GoogleTalk}}
   
   \end{center}
