@@ -1199,10 +1199,11 @@ and Snob.
 \begin{frame}{Effect of COVID19 lockdown measures}
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=0.80\textwidth]{images/911calls}}
-\caption{ \scriptsize The causal effect of the COVID19 lockdown measures over the 911 emergency callouts}
+\caption{ \scriptsize The causal effect of the COVID19 lockdown measures over the 911 emergency callouts~\cite{Grecov2021-ws}}
 \label{causal}
 \end{figure}
 \end{frame}
+
 
 
 %\begin{frame}{Research Project 4: Publications and Achievements}
@@ -1265,7 +1266,7 @@ layer, residual RNN training layer, and a post-processing layer}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Research Contribution 6: Transfer Learning Architectures}  
+\begin{frame}{Transfer Learning Architectures}  
 \begin{figure}[ht]
 \centering
 \subfloat[TL-1]{
@@ -1279,6 +1280,49 @@ layer, residual RNN training layer, and a post-processing layer}
 \label{fig:subfig3}}%\hfill
 \caption{\tiny The layers used to build the base model using the $D_s$, are represented in blue colour, while the additional layers introduced, when building the target model using the $D_t$, are represented in green colour.}
 \label{fig:transfarch}
+\end{figure}
+\end{frame}
+
+\begin{frame}{DeepPPMNet}
+	\begin{itemize}
+	\item GFM allows to train across all the available EMS demand time series to exploit the potential cross-series information available in multiple local governing areas (LGAs).
+	\vspace{4mm}
+	\item Capable of exploring the causal relationships using the notion of Granger Causality, where the GFM enables to perform ‘what-if’ analyses.
+	\begin{itemize}\color{blue}
+		\item Using potential external regressors to evaluate whether the
+base accuracies are improved.
+		\item Sensitivity analysis to assess their impact towards EMS.
+		\item GFMs make the ‘what-if’ analysis feasible even for relatively
+constant features.
+		\item Allows government decision makers to assess the factors that
+could drive the EMS demand.
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Evaluation}
+	\begin{itemize}
+	\item The DeepPPMNet was evaluated using a realworld EMS demand dataset
+	\vspace{1mm}
+	\begin{itemize}\color{blue}
+		\item National dataset of coded ambulance clinical records held by Turning Point, an Australian addiction research and education centre.
+		\item Related to alcohol overdose, suicide attempts, and other drug related harms.
+		\item 8 years worth of EMS related data for each LGA.
+		\item Our methods outperform state-of-the-art univariate time series models.
+	\end{itemize}
+	\item A case study to investiage the use of DeepPPMNet
+	\vspace{2mm}
+	\begin{itemize}\color{blue}
+		\item How the number of alcohol licenses issued (ALI) for a certain period of time can affect the alcohol related EMS demand patterns.
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{DeepPPMNet Case Study}
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.80\textwidth]{images/whatif}}
+\caption{ \scriptsize The application of `what-if' scenario analysis, using the number of  ALI (as a percentage of change) against the AO related EMS demand.}
+\label{whatif}
 \end{figure}
 \end{frame}
 
